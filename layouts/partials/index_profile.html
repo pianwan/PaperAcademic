@@ -40,6 +40,19 @@
             {{- end }}
         </div>
     </div>
+
+    <div class="subsection">
+        <header class="subsection-header">
+            <h2 class="subsection-title">{{ .interests.title }}</h2>
+        </header>
+        <ul class="interests-list">
+            {{- range .interests.content }}
+            <div class="subsection-details">
+                <li class="interest-item">{{ . }}</li>
+            </div>
+            {{- end }}
+        </ul>
+    </div>
     <div class="subsection">
         <header class="subsection-header">
             <h2 class="subsection-title">{{ .work.title }}</h2>
