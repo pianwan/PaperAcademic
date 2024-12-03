@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: var(--gap) 0 calc(var(--gap) * 2) 0;
+    margin: var(--gap) 0 calc(var(--gap) * 1.5) 0;
 }
 
 .profile-text {
@@ -46,6 +46,28 @@
     object-fit: cover;
 }
 
+.profile-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.9em;
+}
+
+.profile-links {
+    display: flex;
+    gap: 10px;
+    font-weight: 550;
+}
+
+.vertical-divider {
+    width: 3px;
+    background-color: #555;
+    height: 24px;
+}
+
+.profile-socials {
+    display: flex;
+}
+
 .subsection {
     width: 100%;
     margin-top: 20px;
@@ -85,7 +107,8 @@
 }
 
 .subsection-link:hover {
-    background-color: #eaeaea;
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
