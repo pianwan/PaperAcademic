@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: var(--gap) 0 calc(var(--gap) * 1.5) 0;
 }
 
 .profile-text {
@@ -21,7 +20,7 @@
     font-size: 1.1rem;
     font-weight: 470;
     margin-bottom: 10px;
-    color: #555;
+    color: #666;
     line-height: 1.2;
 }
 
@@ -29,7 +28,7 @@
     color: var(--secondary);
     font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.6em;
 }
 
 .profile-content p {
@@ -50,6 +49,8 @@
     display: flex;
     align-items: center;
     gap: 0.9em;
+    margin-top: 0.1em;
+    margin-bottom: 0.4em;
 }
 
 .profile-links {
@@ -119,18 +120,18 @@
 
 .role {
     font-size: 0.9rem;
-    color: #666;
+    color: var(--secondary);
 }
 
 .date {
     font-size: 1rem;
-    color: #999;
+    color: var(--secondary);
     text-align: right;
 }
 
 .location {
     font-size: 0.9rem;
-    color: #999;
+    color: var(--secondary);
     text-align: right;
 }
 
@@ -140,7 +141,7 @@
     margin-left: 30px;
     font-size: 1.1rem;
     line-height: 1.5;
-    color: #666;
+    color: var(--secondary);
 }
 
 /* Responsive Design */
